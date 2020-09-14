@@ -63,8 +63,8 @@ async def generate_languages(s: Stats) -> None:
     delay_between = 150
     for i, (lang, data) in enumerate(sorted_languages):
         color = data.get("color")
-        #color = color if color is not None else "#FFFFFF"
-		color = "#FFFFFF"
+        #color = color if color is not None else "#000000"
+		color = "#000000"
         progress += (f'<span style="background-color: {color};'
                      f'width: {data.get("prop", 0):0.3f}%;" '
                      f'class="progress-item"></span>')
