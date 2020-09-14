@@ -1,8 +1,8 @@
 # GitHub Stats Visualization
 
 
-![](https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg)
-![](https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg)
+![](https://github.com/terra9/github-stats/blob/master/generated/overview.svg)
+![](https://github.com/terra9/github-stats/blob/master/generated/languages.svg)
 
 Generate visualizations of GitHub user and repository statistics using GitHub
 Actions.
