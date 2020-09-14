@@ -44,28 +44,28 @@ anyone may be able to see the name of one or more private repositories.
 
 <!-- TODO: Add details and screenshots -->
 
-1. Create a personal access token (not the default GitHub Actions token) using
+1.  Create a personal access token (not the default GitHub Actions token) using
    the instructions
    [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token).
    Personal access token must have permissions: `read:user` and `repo`. Copy
    the access token when it is generated – if you lose it, you will have to
    regenerate the token.
-2. Fork the repository.
-3. Go to the "Settings" tab of the fork and go to the "Secrets" page (bottom
+2.  Fork the repository.
+3.  Go to the "Settings" tab of the fork and go to the "Secrets" page (bottom
    left). Create a new secret with the name `ACCESS_TOKEN` and paste the copied
    personal access token as the value.
-4. Go to the "Actions" tab of the fork and hit the big green button to enable
+4.  Go to the "Actions" tab of the fork and hit the big green button to enable
    Actions.
-5. Commit a small change to the repo (for example remove a newline from the end
+5.  Commit a small change to the repo (for example remove a newline from the end
    of the README) to force it to regenerate the stats images.
-6. Check out the images that have been created in the `generated` folder.
-5. Star this repo if you like it!
+6.  Check out the images that have been created in the `generated` folder.
+5.  Star this repo if you like it!
 
 
 # Related Projects
 
-- Inspired by a desire to improve upon
+-   Inspired by a desire to improve upon
   [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- Makes use of [GitHub Octicons](https://primer.style/octicons/) to precisely
+-   Makes use of [GitHub Octicons](https://primer.style/octicons/) to precisely
   match the GitHub UI
-- Now the fun begins!!
+-   Now the fun begins!!
